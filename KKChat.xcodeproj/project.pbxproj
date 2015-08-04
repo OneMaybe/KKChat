@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEEB7A9F1B70E9FC00D7241F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB7A9E1B70E9FC00D7241F /* AppDelegate.swift */; };
+		EEEB7AA11B70E9FC00D7241F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB7AA01B70E9FC00D7241F /* ViewController.swift */; };
+		EEEB7AA41B70E9FC00D7241F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEB7AA21B70E9FC00D7241F /* Main.storyboard */; };
+		EEEB7AA61B70E9FC00D7241F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEB7AA51B70E9FC00D7241F /* Images.xcassets */; };
+		EEEB7AA91B70E9FC00D7241F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEEB7AA71B70E9FC00D7241F /* LaunchScreen.xib */; };
+		EEEB7AB51B70E9FC00D7241F /* KKChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEEB7AB41B70E9FC00D7241F /* KKChatTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEEB7AAF1B70E9FC00D7241F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEEB7A911B70E9FC00D7241F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEEB7A981B70E9FC00D7241F;
+			remoteInfo = KKChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEEB7A991B70E9FC00D7241F /* KKChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB7A9D1B70E9FC00D7241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB7A9E1B70E9FC00D7241F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEEB7AA01B70E9FC00D7241F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEEB7AA31B70E9FC00D7241F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEEB7AA51B70E9FC00D7241F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEEB7AA81B70E9FC00D7241F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EEEB7AAE1B70E9FC00D7241F /* KKChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEB7AB31B70E9FC00D7241F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEB7AB41B70E9FC00D7241F /* KKChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KKChatTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEB7A961B70E9FC00D7241F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB7AAB1B70E9FC00D7241F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEEB7A901B70E9FC00D7241F = {
+			isa = PBXGroup;
+			children = (
+				EEEB7A9B1B70E9FC00D7241F /* KKChat */,
+				EEEB7AB11B70E9FC00D7241F /* KKChatTests */,
+				EEEB7A9A1B70E9FC00D7241F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEB7A9A1B70E9FC00D7241F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB7A991B70E9FC00D7241F /* KKChat.app */,
+				EEEB7AAE1B70E9FC00D7241F /* KKChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEB7A9B1B70E9FC00D7241F /* KKChat */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB7A9E1B70E9FC00D7241F /* AppDelegate.swift */,
+				EEEB7AA01B70E9FC00D7241F /* ViewController.swift */,
+				EEEB7AA21B70E9FC00D7241F /* Main.storyboard */,
+				EEEB7AA51B70E9FC00D7241F /* Images.xcassets */,
+				EEEB7AA71B70E9FC00D7241F /* LaunchScreen.xib */,
+				EEEB7A9C1B70E9FC00D7241F /* Supporting Files */,
+			);
+			path = KKChat;
+			sourceTree = "<group>";
+		};
+		EEEB7A9C1B70E9FC00D7241F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB7A9D1B70E9FC00D7241F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEEB7AB11B70E9FC00D7241F /* KKChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB7AB41B70E9FC00D7241F /* KKChatTests.swift */,
+				EEEB7AB21B70E9FC00D7241F /* Supporting Files */,
+			);
+			path = KKChatTests;
+			sourceTree = "<group>";
+		};
+		EEEB7AB21B70E9FC00D7241F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEB7AB31B70E9FC00D7241F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEB7A981B70E9FC00D7241F /* KKChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB7AB81B70E9FC00D7241F /* Build configuration list for PBXNativeTarget "KKChat" */;
+			buildPhases = (
+				EEEB7A951B70E9FC00D7241F /* Sources */,
+				EEEB7A961B70E9FC00D7241F /* Frameworks */,
+				EEEB7A971B70E9FC00D7241F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKChat;
+			productName = KKChat;
+			productReference = EEEB7A991B70E9FC00D7241F /* KKChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEEB7AAD1B70E9FC00D7241F /* KKChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEB7ABB1B70E9FC00D7241F /* Build configuration list for PBXNativeTarget "KKChatTests" */;
+			buildPhases = (
+				EEEB7AAA1B70E9FC00D7241F /* Sources */,
+				EEEB7AAB1B70E9FC00D7241F /* Frameworks */,
+				EEEB7AAC1B70E9FC00D7241F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEEB7AB01B70E9FC00D7241F /* PBXTargetDependency */,
+			);
+			name = KKChatTests;
+			productName = KKChatTests;
+			productReference = EEEB7AAE1B70E9FC00D7241F /* KKChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEB7A911B70E9FC00D7241F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = KellenYang;
+				TargetAttributes = {
+					EEEB7A981B70E9FC00D7241F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EEEB7AAD1B70E9FC00D7241F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EEEB7A981B70E9FC00D7241F;
+					};
+				};
+			};
+			buildConfigurationList = EEEB7A941B70E9FC00D7241F /* Build configuration list for PBXProject "KKChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEB7A901B70E9FC00D7241F;
+			productRefGroup = EEEB7A9A1B70E9FC00D7241F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEB7A981B70E9FC00D7241F /* KKChat */,
+				EEEB7AAD1B70E9FC00D7241F /* KKChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEB7A971B70E9FC00D7241F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB7AA41B70E9FC00D7241F /* Main.storyboard in Resources */,
+				EEEB7AA91B70E9FC00D7241F /* LaunchScreen.xib in Resources */,
+				EEEB7AA61B70E9FC00D7241F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB7AAC1B70E9FC00D7241F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEB7A951B70E9FC00D7241F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB7AA11B70E9FC00D7241F /* ViewController.swift in Sources */,
+				EEEB7A9F1B70E9FC00D7241F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEEB7AAA1B70E9FC00D7241F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEB7AB51B70E9FC00D7241F /* KKChatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEEB7AB01B70E9FC00D7241F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEEB7A981B70E9FC00D7241F /* KKChat */;
+			targetProxy = EEEB7AAF1B70E9FC00D7241F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEEB7AA21B70E9FC00D7241F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB7AA31B70E9FC00D7241F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEB7AA71B70E9FC00D7241F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEB7AA81B70E9FC00D7241F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEB7AB61B70E9FC00D7241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEEB7AB71B70E9FC00D7241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEB7AB91B70E9FC00D7241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEB7ABA1B70E9FC00D7241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KKChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEEB7ABC1B70E9FC00D7241F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KKChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKChat.app/KKChat";
+			};
+			name = Debug;
+		};
+		EEEB7ABD1B70E9FC00D7241F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KKChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KKChat.app/KKChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEB7A941B70E9FC00D7241F /* Build configuration list for PBXProject "KKChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB7AB61B70E9FC00D7241F /* Debug */,
+				EEEB7AB71B70E9FC00D7241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEB7AB81B70E9FC00D7241F /* Build configuration list for PBXNativeTarget "KKChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB7AB91B70E9FC00D7241F /* Debug */,
+				EEEB7ABA1B70E9FC00D7241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEEB7ABB1B70E9FC00D7241F /* Build configuration list for PBXNativeTarget "KKChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEB7ABC1B70E9FC00D7241F /* Debug */,
+				EEEB7ABD1B70E9FC00D7241F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEB7A911B70E9FC00D7241F /* Project object */;
+}
