@@ -5,6 +5,8 @@
 //  Created by jensen on 15/8/4.
 //  Copyright (c) 2015年 KellenYang. All rights reserved.
 //
+//vnroth0krcsgo     fuzyAOwAucj
+//{"code":200,"userId":"kellen","token":"yrY/B1l6RYKMORAYL+7AY0TPhYVEj5h6Z7vY8/kD0kCN7+UjSlG08TboUHIfxvEsfUe5fDbron20VLL/31oKYQ=="}
 
 import UIKit
 
@@ -16,6 +18,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //查询保存的token
+        let deviceTokenCache = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
+        
+        //初始化appkey
+        RCIM.sharedRCIM().initWithAppKey("vnroth0krcsgo")
+        
+        //用token测试连接
+        RCIM.sharedRCIM().connectWithToken("yrY/B1l6RYKMORAYL+7AY0TPhYVEj5h6Z7vY8/kD0kCN7+UjSlG08TboUHIfxvEsfUe5fDbron20VLL/31oKYQ==", success: { (_) -> Void in
+            println("连接成功")
+        }, error: { (_) -> Void in
+            println("连接失败")
+        }) { () -> Void in
+            println("token不正确，或已经失效")
+        }
+        
+        let currentUser = RCUserInfo(userId: "kellen", name: "shen", portrait: "http://www.xiaoboswift.com/1.jpg")
+        
+        RCIMClient.sharedRCIMClient().currentUserInfo = currentUser
+        
         return true
     }
 
