@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F63B7525-1E0B-4B5D-B043-119DA9631A68</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KKChat</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9EC6671CFB2B489FF9F7E648350090972AA89354</key>
+		<string>github.com:OneMaybe/KKChat.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KKChat.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9EC6671CFB2B489FF9F7E648350090972AA89354</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:OneMaybe/KKChat.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9EC6671CFB2B489FF9F7E648350090972AA89354</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9EC6671CFB2B489FF9F7E648350090972AA89354</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KKChat</string>
+		</dict>
+	</array>
+</dict>
+</plist>

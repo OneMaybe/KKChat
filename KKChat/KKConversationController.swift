@@ -13,15 +13,15 @@ class KKConversationController: RCConversationViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let currentUser = RCIMClient.sharedRCIMClient().currentUserInfo
-        
-        self.targetId = currentUser.userId
-        self.userName = currentUser.name
-        self.conversationType = RCConversationType.ConversationType_PRIVATE
-        
-        self.title = self.userName
-        
-        self.setMessageAvatarStyle(RCUserAvatarStyle._USER_AVATAR_CYCLE)
+//        let currentUser = RCIMClient.sharedRCIMClient().currentUserInfo
+//        
+//        self.targetId = currentUser.userId
+//        self.userName = currentUser.name
+//        self.conversationType = RCConversationType.ConversationType_PRIVATE
+//        
+//        self.title = self.userName
+//        
+//        self.setMessageAvatarStyle(RCUserAvatarStyle._USER_AVATAR_CYCLE)
         
         
     }
