@@ -20,18 +20,32 @@ extension UIView {
     }
 }
 
-class KKLoginController: UIViewController {
+class KKLoginController: UIViewController, KKAnimatedImagesViewDelegate {
 
+    
+    @IBOutlet weak var wallpaperImageView: KKAnimatedImagesView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.wallpaperImageView.delegate = self;
+        self.wallpaperImageView.startAnimating()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func animatedImagesNumberOfImages(animatedImagesView: KKAnimatedImagesView!) -> UInt {
+        return 2
     }
+    
+    func animatedImagesView(animatedImagesView: KKAnimatedImagesView!, imageAtIndex index: UInt) -> UIImage! {
+        return UIImage(named: "\(index + 1)")
+    }
+    
+//    func animatedImagesNumberOfImages(animatedImagesView: JSAnimatedImagesView!) -> UInt {
+//        return 2
+//    }
+//    
+//    func animatedImagesView(animatedImagesView: JSAnimatedImagesView!, imageAtIndex index: UInt) -> UIImage! {
+//        return UIImage(named: "\(index + 1)")
+//    }
     
 
     /*
