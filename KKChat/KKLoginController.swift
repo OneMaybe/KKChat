@@ -24,9 +24,13 @@ class KKLoginController: UIViewController, KKAnimatedImagesViewDelegate {
 
     
     @IBOutlet weak var wallpaperImageView: KKAnimatedImagesView!
-    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.hidden = true
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+
         self.wallpaperImageView.delegate = self;
         self.wallpaperImageView.startAnimating()
     }
