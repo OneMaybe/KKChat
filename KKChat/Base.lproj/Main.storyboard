@@ -210,7 +210,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" id="4Vv-ht-OiQ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                         <sections>
                             <tableViewSection headerTitle="必填" id="YBa-Po-sf4">
                                 <cells>
@@ -325,7 +325,7 @@
                                                         <constraint firstAttribute="height" constant="30" id="62i-BP-bkC"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                                    <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
@@ -378,6 +378,9 @@
                         <outlet property="questionTF" destination="rt4-Db-oSn" id="WH8-Ua-Ga5"/>
                         <outlet property="regionTF" destination="p54-tC-3ds" id="ES1-sC-zv6"/>
                         <outlet property="userTF" destination="4h5-1S-Sxz" id="kDh-EG-9xj"/>
+                        <outletCollection property="logininTFs" destination="4h5-1S-Sxz" collectionClass="NSMutableArray" id="vCE-qO-zbb"/>
+                        <outletCollection property="logininTFs" destination="XE9-ku-9Gx" collectionClass="NSMutableArray" id="71T-45-iXg"/>
+                        <outletCollection property="logininTFs" destination="fxY-2u-EZW" collectionClass="NSMutableArray" id="0fi-ih-vLF"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nrc-QD-Mpc" userLabel="First Responder" sceneMemberID="firstResponder"/>

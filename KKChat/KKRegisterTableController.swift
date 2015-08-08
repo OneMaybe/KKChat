@@ -10,6 +10,10 @@ import UIKit
 
 class KKRegisterTableController: UITableViewController {
 
+
+    @IBOutlet var logininTFs: [UITextField]!
+    
+    
     @IBOutlet weak var userTF: UITextField!
     @IBOutlet weak var passwordTF: UITextField!
     @IBOutlet weak var emailTF: UITextField!
@@ -18,17 +22,29 @@ class KKRegisterTableController: UITableViewController {
     @IBOutlet weak var answerTF: UITextField!
     
     func checkRequiredField() {
-        for cell in tableView.visibleCells() as NSArray {
-            for subview in cell.subviews {
-                if let textField = subview as? UITextField {
-                    if textField.text.isEmpty {
-                        let alert = UIAlertController(title: "必须全部填满", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
-                        let action = UIAlertAction(title: "ok", style: UIAlertActionStyle.Default, handler: nil)
-                        alert.addAction(action)
-                        self.presentViewController(alert, animated: true, completion: nil)
-
-                    }
-                }
+        
+//        self.view.runBlockOnAllSubviews { (subview) -> Void in
+//            if let subview = subview as? UITextField {
+//                if subview.text.isEmpty {
+//                    let alert = UIAlertController(title: "文本框为空", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+//                    let action = UIAlertAction(title: "ok", style: UIAlertActionStyle.Default, handler: nil)
+//                    alert.addAction(action)
+//                    self.presentViewController(alert, animated: true, completion: nil)
+//                    return
+//                }
+//            }
+//        }
+        
+        for textField in logininTFs {
+            if textField.text.isEmpty {
+                
+                self.successNotice("", autoClear: true)
+                
+//                let alert = UIAlertController(title: "文本框为空", message: nil, preferredStyle: UIAlertControllerStyle.Alert)
+//                let action = UIAlertAction(title: "ok", style: UIAlertActionStyle.Default, handler: nil)
+//                alert.addAction(action)
+//                self.presentViewController(alert, animated: true, completion: nil)
+//                return
             }
         }
     }

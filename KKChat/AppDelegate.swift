@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
                 userInfo.name = "shen2"
                 userInfo.portraitUri = "http://img4.imgtn.bdimg.com/it/u=646999347,2839297789&fm=111&gp=0.jpg"
         default:
-            println("no user")
+            print("no user")
         }
         return completion(userInfo)
     }
@@ -34,7 +34,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
     func connectServer(completion:()->Void) {
         
         //查询保存的token
-        let deviceTokenCache = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
+        _ = NSUserDefaults.standardUserDefaults().objectForKey("kDeviceToken") as? String
         
         //初始化appkey
         RCIM.sharedRCIM().initWithAppKey("vnroth0krcsgo")
@@ -50,9 +50,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, RCIMUserInfoDataSource {
             })
             
             }, error: { (code:RCConnectErrorCode) -> Void in
-                println("连接失败 \(code)")
+                print("连接失败 \(code)")
             }) { () -> Void in
-                println("token不正确，或已经失效")
+                print("token不正确，或已经失效")
         }
         
         

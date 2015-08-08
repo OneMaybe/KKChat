@@ -10,6 +10,8 @@
 		1606E6C9237E4996D0766749 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AA5E8E91AD37158EDE3579 /* libPods.a */; };
 		EE37445F1B7267F3004C5D5C /* KKConversationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE37445E1B7267F3004C5D5C /* KKConversationController.swift */; };
 		EE3744611B726C9C004C5D5C /* KKConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3744601B726C9B004C5D5C /* KKConversationListViewController.swift */; };
+		EE88EFBC1B75BECE005CC7AC /* UIView+ViewRecursion.m in Sources */ = {isa = PBXBuildFile; fileRef = EE88EFBB1B75BECE005CC7AC /* UIView+ViewRecursion.m */; };
+		EE88EFBF1B75C2BD005CC7AC /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE88EFBE1B75C2BD005CC7AC /* SwiftNotice.swift */; };
 		EEAD75161B74E7A400D3AD6F /* KKAnimatedImagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAD75151B74E7A400D3AD6F /* KKAnimatedImagesView.m */; };
 		EEAD75181B74F03900D3AD6F /* KKRegisterTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAD75171B74F03900D3AD6F /* KKRegisterTableController.swift */; };
 		EECEE43A1B73BE3A009E1E42 /* KKLoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECEE4391B73BE3A009E1E42 /* KKLoginController.swift */; };
@@ -38,6 +40,9 @@
 		86AA5E8E91AD37158EDE3579 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE37445E1B7267F3004C5D5C /* KKConversationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKConversationController.swift; sourceTree = "<group>"; };
 		EE3744601B726C9B004C5D5C /* KKConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKConversationListViewController.swift; sourceTree = "<group>"; };
+		EE88EFBA1B75BECE005CC7AC /* UIView+ViewRecursion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewRecursion.h"; sourceTree = "<group>"; };
+		EE88EFBB1B75BECE005CC7AC /* UIView+ViewRecursion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewRecursion.m"; sourceTree = "<group>"; };
+		EE88EFBE1B75C2BD005CC7AC /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		EEAD75141B74E7A400D3AD6F /* KKAnimatedImagesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAnimatedImagesView.h; sourceTree = "<group>"; };
 		EEAD75151B74E7A400D3AD6F /* KKAnimatedImagesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAnimatedImagesView.m; sourceTree = "<group>"; };
 		EEAD75171B74F03900D3AD6F /* KKRegisterTableController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KKRegisterTableController.swift; sourceTree = "<group>"; };
@@ -92,6 +97,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EE88EFBD1B75BEE3005CC7AC /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				EE88EFBE1B75C2BD005CC7AC /* SwiftNotice.swift */,
+				EEAD75141B74E7A400D3AD6F /* KKAnimatedImagesView.h */,
+				EEAD75151B74E7A400D3AD6F /* KKAnimatedImagesView.m */,
+				EE88EFBA1B75BECE005CC7AC /* UIView+ViewRecursion.h */,
+				EE88EFBB1B75BECE005CC7AC /* UIView+ViewRecursion.m */,
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
 		EEEB7A901B70E9FC00D7241F = {
 			isa = PBXGroup;
 			children = (
@@ -127,8 +144,7 @@
 				EEEB7AA71B70E9FC00D7241F /* LaunchScreen.xib */,
 				EEEB7A9C1B70E9FC00D7241F /* Supporting Files */,
 				EECA9E5E1B70F0E00091AF36 /* KKChat-Bridging-Header.h */,
-				EEAD75141B74E7A400D3AD6F /* KKAnimatedImagesView.h */,
-				EEAD75151B74E7A400D3AD6F /* KKAnimatedImagesView.m */,
+				EE88EFBD1B75BEE3005CC7AC /* Vender */,
 			);
 			path = KKChat;
 			sourceTree = "<group>";
@@ -205,6 +221,8 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KK;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = KellenYang;
 				TargetAttributes = {
@@ -297,9 +315,11 @@
 			files = (
 				EE37445F1B7267F3004C5D5C /* KKConversationController.swift in Sources */,
 				EECEE43A1B73BE3A009E1E42 /* KKLoginController.swift in Sources */,
+				EE88EFBC1B75BECE005CC7AC /* UIView+ViewRecursion.m in Sources */,
 				EEEB7A9F1B70E9FC00D7241F /* AppDelegate.swift in Sources */,
 				EEAD75161B74E7A400D3AD6F /* KKAnimatedImagesView.m in Sources */,
 				EEAD75181B74F03900D3AD6F /* KKRegisterTableController.swift in Sources */,
+				EE88EFBF1B75C2BD005CC7AC /* SwiftNotice.swift in Sources */,
 				EECEE43C1B73C08C009E1E42 /* KKRoundImageView.swift in Sources */,
 				EE3744611B726C9C004C5D5C /* KKConversationListViewController.swift in Sources */,
 			);

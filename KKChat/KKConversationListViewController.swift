@@ -42,7 +42,7 @@ class KKConversationListViewController: RCConversationListViewController {
             case 1:
                 self.clickMenu2()
             default:
-                println(selectedItem.title)
+                print(selectedItem.title)
                 
             }
         }
@@ -50,11 +50,11 @@ class KKConversationListViewController: RCConversationListViewController {
     }
     
     func clickMenu1() {
-        println("与客服聊天")
+        print("与客服聊天")
     }
     
     func clickMenu2() {
-        println("与好友聊天")
+        print("与好友聊天")
         let conVC = RCConversationViewController()
         conVC.targetId = "kellen"
         conVC.userName = "shen"
@@ -70,7 +70,7 @@ class KKConversationListViewController: RCConversationListViewController {
         
         let appDelegate = UIApplication.sharedApplication().delegate as? AppDelegate
         appDelegate?.connectServer({ () -> Void in
-            println("连接成功2")
+            print("连接成功2")
             //OC枚举和swift枚举不同
             self.setDisplayConversationTypes([
                 RCConversationType.ConversationType_APPSERVICE.rawValue,
